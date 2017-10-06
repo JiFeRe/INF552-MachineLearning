@@ -147,7 +147,7 @@ def initial(k):
         u_list.append(uc)
     return pai_list, u_list, sigma_list
 
-#set parameters
+#set parameter
 k = 3
 converg_list = []
 file_name = 'clusters.txt'
