@@ -10,7 +10,7 @@ def cal_pca(n=3,k=2):
 
     #step 2
     e_value,e_vector = np.linalg.eig(sigma)
-    #step 3
+    #step 3 ??
     u_nn = e_vector[:]
     u_kn = u_nn[:k]
     #step 4
