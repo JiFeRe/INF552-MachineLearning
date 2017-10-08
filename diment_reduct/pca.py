@@ -2,7 +2,7 @@ import numpy as np
 import readfile
 
 def cal_pca(n=3,k=2):
-    point_list = readfile.read_points()
+    point_list = readfile.read_points('pca-data.txt')
     point_mat = np.mat(point_list)
     #step 1
     sigma = point_mat.T * point_mat

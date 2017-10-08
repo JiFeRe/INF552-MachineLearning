@@ -1,7 +1,7 @@
 import re
 
 
-def read_points(file_name='pca-data.txt'):
+def read_points(file_name):
     f = open(file_name)
     point_list = []
     for line in f:
