@@ -13,6 +13,7 @@ def cal_pca(n=3,k=2):
     #step 3 ??
     u_nn = e_vector[:]
     u_kn = u_nn[:k]
+    print(u_nn)
     #step 4
     z_list = []
     for i in range(len(point_list)):
@@ -20,6 +21,6 @@ def cal_pca(n=3,k=2):
         xi_mat = np.mat(xi).T
         zi = u_kn * xi_mat
         z_list.append(zi.T.tolist())
-    print(z_list)
+    #print(z_list)
 
 cal_pca()
