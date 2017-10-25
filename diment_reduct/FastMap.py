@@ -18,6 +18,7 @@ def fast_map(point_list):
                 fur_pair = each_pair
     #print(fur_pair, fur_dist)
 
+
     # step2:
     cord_set = {}
     a = min(fur_pair[0],fur_pair[1])
