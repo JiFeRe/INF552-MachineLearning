@@ -82,5 +82,4 @@ def main():
     plot_words(list(cord_1.values()),list(cord_2.values()),word_list)
     return cord_1,cord_2
 
-
 main()
